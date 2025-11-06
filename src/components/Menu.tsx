@@ -6,7 +6,7 @@ const menuData = {
   breakfast: [
     {
       title: "Explorer's Sunrise Omelet",
-      description: "A perfect fusion of Old World dairy and New World spice. Fluffy eggs meet vibrant peppers in this morning masterpiece.",
+      description: "Old World dairy meets New World spice. Fluffy eggs with vibrant peppers.",
       ingredients: [
         { name: "Eggs", hemisphere: "E" as const, origin: "Domesticated in Southeast Asia" },
         { name: "Cheese", hemisphere: "E" as const, origin: "Ancient European tradition" },
@@ -16,7 +16,7 @@ const menuData = {
     },
     {
       title: "Conquistador's Breakfast Bowl",
-      description: "A hearty combination of grains from across the ocean, sweetened with discoveries from distant lands.",
+      description: "Grains from Europe sweetened with treasures from the Americas.",
       ingredients: [
         { name: "Wheat", hemisphere: "E" as const, origin: "Fertile Crescent cultivation" },
         { name: "Honey", hemisphere: "E" as const, origin: "European beekeeping" },
@@ -28,7 +28,7 @@ const menuData = {
   lunch: [
     {
       title: "Atlantic Crossing Sandwich",
-      description: "Layers of history between two slices. European traditions meet American innovation in every bite.",
+      description: "European bread and greens meet American turkey and avocado.",
       ingredients: [
         { name: "Wheat Bread", hemisphere: "E" as const, origin: "Mediterranean wheat fields" },
         { name: "Lettuce", hemisphere: "E" as const, origin: "Egyptian gardens" },
@@ -38,7 +38,7 @@ const menuData = {
     },
     {
       title: "Merchant's Potato Stew",
-      description: "A warming stew that tells the tale of transcontinental trade. Comfort from two continents in one bowl.",
+      description: "A warming stew with comfort from two continents in one bowl.",
       ingredients: [
         { name: "Beef", hemisphere: "E" as const, origin: "European cattle" },
         { name: "Onions", hemisphere: "E" as const, origin: "Central Asian origin" },
@@ -50,7 +50,7 @@ const menuData = {
   dinner: [
     {
       title: "Navigator's Fusion Roast",
-      description: "A grand centerpiece worthy of any captain's table. Where spices from afar enhance treasures from home.",
+      description: "Eastern spices enhance ingredients from both hemispheres.",
       ingredients: [
         { name: "Chicken", hemisphere: "E" as const, origin: "Southeast Asian domestication" },
         { name: "Black Pepper", hemisphere: "E" as const, origin: "Indian spice routes" },
@@ -60,7 +60,7 @@ const menuData = {
     },
     {
       title: "Galleon's Harvest Plate",
-      description: "A colorful voyage across your palate. Each ingredient represents a port of call in the age of discovery.",
+      description: "Each ingredient from a different port of call during the age of sail.",
       ingredients: [
         { name: "Rice", hemisphere: "E" as const, origin: "Asian cultivation" },
         { name: "Olive Oil", hemisphere: "E" as const, origin: "Mediterranean gift" },
@@ -72,7 +72,7 @@ const menuData = {
   desserts: [
     {
       title: "Colonial Sugar Dreams",
-      description: "Sweet endings that changed the world. A decadent reminder of sugar's journey across the Atlantic.",
+      description: "Old World sugar and butter with New World chocolate and vanilla.",
       ingredients: [
         { name: "Sugar", hemisphere: "E" as const, origin: "Brought from Old World plantations" },
         { name: "Butter", hemisphere: "E" as const, origin: "European dairy craft" },
@@ -82,7 +82,7 @@ const menuData = {
     },
     {
       title: "Tropical Treasure Tart",
-      description: "A pastry that bridges continents. New World fruits nestled in Old World baking traditions.",
+      description: "American fruits in a European pastry.",
       ingredients: [
         { name: "Wheat Flour", hemisphere: "E" as const, origin: "Ancient grain cultivation" },
         { name: "Cinnamon", hemisphere: "E" as const, origin: "Ceylon spice trade" },
@@ -94,7 +94,7 @@ const menuData = {
   beverages: [
     {
       title: "Trader's Hot Chocolate",
-      description: "The drink of Aztec royalty transformed by European refinement. Richness from both worlds in one cup.",
+      description: "Aztec cacao with European milk and sugar.",
       ingredients: [
         { name: "Milk", hemisphere: "E" as const, origin: "European dairy tradition" },
         { name: "Sugar", hemisphere: "E" as const, origin: "Refined in the Old World" },
@@ -104,7 +104,7 @@ const menuData = {
     },
     {
       title: "Voyager's Spiced Rum Punch",
-      description: "A celebration in a glass. Caribbean spirits meet Eastern spices in this festive concoction.",
+      description: "Caribbean rum with Asian spices and American citrus.",
       ingredients: [
         { name: "Rum", hemisphere: "W" as const, origin: "Distilled from Caribbean sugarcane" },
         { name: "Nutmeg", hemisphere: "E" as const, origin: "Spice Islands treasure" },

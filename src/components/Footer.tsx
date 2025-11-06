@@ -10,13 +10,12 @@ const Footer = () => {
             <Book className="w-8 h-8 text-accent" />
           </div>
           <p className="text-lg leading-relaxed mb-4">
-            This website was designed to celebrate the history and impact of the <span className="font-serif font-semibold">Columbian Exchange</span> — 
-            the first true global fusion of culture, cuisine, and community.
+            This website celebrates the history of the <span className="font-serif font-semibold">Columbian Exchange</span>, 
+            when cultures, foods, and communities connected across the Atlantic for the first time.
           </p>
           <p className="text-sm text-primary-foreground/80">
-            From the late 15th century onward, the exchange of foods, animals, diseases, and ideas between 
-            the Eastern and Western Hemispheres fundamentally transformed human civilization, shaping the 
-            world we live in today.
+            Starting in the late 1400s, foods, animals, diseases, and ideas moved between 
+            the Eastern and Western Hemispheres, changing life on both sides of the ocean.
           </p>
         </div>
 

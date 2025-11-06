@@ -13,8 +13,8 @@ const NonFoodExchange = () => {
             Beyond the Plate
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            The Columbian Exchange transformed more than just cuisine — it revolutionized transportation, 
-            economy, and daily life across continents.
+            The Columbian Exchange brought more than just food. It changed how people traveled, 
+            traded, and lived on both sides of the ocean.
           </p>
         </div>
 
@@ -41,14 +41,13 @@ const NonFoodExchange = () => {
                 The Noble Horse
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Imported from the Old World, horses revolutionized American transport, warfare, and agriculture. 
-                Native American tribes, particularly the Plains peoples, transformed their entire way of life 
-                around these magnificent animals.
+                Horses came from Europe and changed how Native Americans traveled, hunted, and fought. 
+                Plains tribes especially built their way of life around these animals.
               </p>
               <div className="border-t border-border pt-4">
                 <p className="text-sm text-secondary font-semibold">Impact:</p>
                 <p className="text-sm text-muted-foreground">
-                  Enabled long-distance travel, enhanced hunting capabilities, and reshaped military tactics 
+                  Made long-distance travel possible, improved hunting, and changed how wars were fought 
                   across the Americas.
                 </p>
               </div>
@@ -76,14 +75,14 @@ const NonFoodExchange = () => {
                 New World Silver
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Vast silver mines in Mexico and Peru flooded global markets, fundamentally altering world economies. 
-                This precious metal financed European empires and became the foundation of international trade.
+                Silver from Mexico and Peru flooded world markets and changed how countries traded. 
+                This metal paid for European empires and became the basis of global trade.
               </p>
               <div className="border-t border-border pt-4">
                 <p className="text-sm text-secondary font-semibold">Impact:</p>
                 <p className="text-sm text-muted-foreground">
-                  Created the first truly global economy, financed exploration and colonization, and sparked 
-                  inflation across Europe.
+                  Created the first global economy, paid for exploration and colonies, and caused 
+                  inflation in Europe.
                 </p>
               </div>
             </div>
@@ -104,7 +103,7 @@ const NonFoodExchange = () => {
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex gap-2">
                     <span className="text-secondary">•</span>
-                    <span><strong>Cattle & Pigs</strong> - Livestock that transformed American agriculture</span>
+                    <span><strong>Cattle & Pigs</strong> - Livestock that changed American farming</span>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-secondary">•</span>
@@ -112,7 +111,7 @@ const NonFoodExchange = () => {
                   </li>
                   <li className="flex gap-2">
                     <span className="text-secondary">•</span>
-                    <span><strong>Coffee & Tea</strong> - Beverages that shaped social culture</span>
+                    <span><strong>Coffee & Tea</strong> - Drinks that became part of daily life</span>
                   </li>
                 </ul>
               </div>

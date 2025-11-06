@@ -12,8 +12,8 @@ const HealthAdvisory = () => {
           </AlertTitle>
           <AlertDescription className="space-y-4 text-card-foreground">
             <p className="text-lg leading-relaxed">
-              During the Columbian Exchange, diseases traveled as rapidly as ideas and trade goods, 
-              with devastating consequences for populations on both sides of the Atlantic.
+              Diseases moved between continents just like food and ideas, 
+              causing terrible harm to people on both sides of the Atlantic.
             </p>
             
             <div className="grid md:grid-cols-2 gap-6 mt-6">
@@ -59,9 +59,8 @@ const HealthAdvisory = () => {
             </div>
 
             <p className="text-sm italic text-muted-foreground mt-6 border-t border-border pt-4">
-              Note: The biological exchange was perhaps the most tragic aspect of the Columbian Exchange, 
-              causing enormous human suffering and demographic collapse, particularly among indigenous American populations 
-              who lacked immunity to Old World diseases.
+              Note: Disease was the most tragic part of the Columbian Exchange. 
+              Indigenous Americans had no immunity to European diseases, which killed millions of people.
             </p>
           </AlertDescription>
         </Alert>

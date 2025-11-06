@@ -34,8 +34,8 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto bg-card/90 backdrop-blur-sm rounded-lg p-8 shadow-elevated animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <p className="text-lg md:text-xl leading-relaxed text-card-foreground">
             Welcome to <span className="font-serif font-semibold">The Transatlantic Table</span>, where the Old World meets the New! 
-            Our dishes celebrate the <span className="text-accent font-semibold">Columbian Exchange</span> — the monumental 
-            swap of foods, cultures, and ideas that reshaped our world.
+            Our dishes celebrate the <span className="text-accent font-semibold">Columbian Exchange</span>, when foods, cultures, 
+            and ideas traveled between continents for the first time.
           </p>
         </div>
         
