@@ -7,6 +7,7 @@ const menuData = {
     {
       title: "Explorer's Sunrise Omelet",
       description: "Old World dairy meets New World spice. Fluffy eggs with vibrant peppers.",
+      price: "$14",
       ingredients: [
         { name: "Eggs", hemisphere: "E" as const, origin: "Domesticated in Southeast Asia" },
         { name: "Cheese", hemisphere: "E" as const, origin: "Ancient European tradition" },
@@ -17,6 +18,7 @@ const menuData = {
     {
       title: "Conquistador's Breakfast Bowl",
       description: "Grains from Europe sweetened with treasures from the Americas.",
+      price: "$12",
       ingredients: [
         { name: "Wheat", hemisphere: "E" as const, origin: "Fertile Crescent cultivation" },
         { name: "Honey", hemisphere: "E" as const, origin: "European beekeeping" },
@@ -29,6 +31,7 @@ const menuData = {
     {
       title: "Atlantic Crossing Sandwich",
       description: "European bread and greens meet American turkey and avocado.",
+      price: "$16",
       ingredients: [
         { name: "Wheat Bread", hemisphere: "E" as const, origin: "Mediterranean wheat fields" },
         { name: "Lettuce", hemisphere: "E" as const, origin: "Egyptian gardens" },
@@ -39,6 +42,7 @@ const menuData = {
     {
       title: "Merchant's Potato Stew",
       description: "A warming stew with comfort from two continents in one bowl.",
+      price: "$15",
       ingredients: [
         { name: "Beef", hemisphere: "E" as const, origin: "European cattle" },
         { name: "Onions", hemisphere: "E" as const, origin: "Central Asian origin" },
@@ -51,6 +55,7 @@ const menuData = {
     {
       title: "Navigator's Fusion Roast",
       description: "Eastern spices enhance ingredients from both hemispheres.",
+      price: "$24",
       ingredients: [
         { name: "Chicken", hemisphere: "E" as const, origin: "Southeast Asian domestication" },
         { name: "Black Pepper", hemisphere: "E" as const, origin: "Indian spice routes" },
@@ -61,6 +66,7 @@ const menuData = {
     {
       title: "Galleon's Harvest Plate",
       description: "Each ingredient from a different port of call during the age of sail.",
+      price: "$26",
       ingredients: [
         { name: "Rice", hemisphere: "E" as const, origin: "Asian cultivation" },
         { name: "Olive Oil", hemisphere: "E" as const, origin: "Mediterranean gift" },
@@ -73,6 +79,7 @@ const menuData = {
     {
       title: "Colonial Sugar Dreams",
       description: "Old World sugar and butter with New World chocolate and vanilla.",
+      price: "$10",
       ingredients: [
         { name: "Sugar", hemisphere: "E" as const, origin: "Brought from Old World plantations" },
         { name: "Butter", hemisphere: "E" as const, origin: "European dairy craft" },
@@ -83,6 +90,7 @@ const menuData = {
     {
       title: "Tropical Treasure Tart",
       description: "American fruits in a European pastry.",
+      price: "$11",
       ingredients: [
         { name: "Wheat Flour", hemisphere: "E" as const, origin: "Ancient grain cultivation" },
         { name: "Cinnamon", hemisphere: "E" as const, origin: "Ceylon spice trade" },
@@ -95,6 +103,7 @@ const menuData = {
     {
       title: "Trader's Hot Chocolate",
       description: "Aztec cacao with European milk and sugar.",
+      price: "$7",
       ingredients: [
         { name: "Milk", hemisphere: "E" as const, origin: "European dairy tradition" },
         { name: "Sugar", hemisphere: "E" as const, origin: "Refined in the Old World" },
@@ -105,6 +114,7 @@ const menuData = {
     {
       title: "Voyager's Spiced Rum Punch",
       description: "Caribbean rum with Asian spices and American citrus.",
+      price: "$9",
       ingredients: [
         { name: "Rum", hemisphere: "W" as const, origin: "Distilled from Caribbean sugarcane" },
         { name: "Nutmeg", hemisphere: "E" as const, origin: "Spice Islands treasure" },

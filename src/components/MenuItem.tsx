@@ -15,9 +15,10 @@ interface MenuItemProps {
   description: string;
   ingredients: Ingredient[];
   category: string;
+  price: string;
 }
 
-const MenuItem = ({ title, description, ingredients, category }: MenuItemProps) => {
+const MenuItem = ({ title, description, ingredients, category, price }: MenuItemProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -35,9 +36,12 @@ const MenuItem = ({ title, description, ingredients, category }: MenuItemProps) 
       </div>
       
       {/* Dish title */}
-      <h3 className="font-serif text-2xl font-semibold text-foreground mb-3 hover:text-accent transition-colors">
-        {title}
-      </h3>
+      <div className="flex items-baseline justify-between mb-3">
+        <h3 className="font-serif text-2xl font-semibold text-foreground hover:text-accent transition-colors">
+          {title}
+        </h3>
+        <span className="font-serif text-xl font-semibold text-secondary">{price}</span>
+      </div>
       
       {/* Description */}
       <p className="text-muted-foreground mb-4 leading-relaxed">
